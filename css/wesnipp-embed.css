@@ -1,0 +1,87 @@
+form
+{
+	margin: 0;
+}
+input
+{
+	background: #FFF;
+	border: 1px solid #dfdfdf;
+}
+input,select,textarea
+{
+	border: 1px solid #dfdfdf;
+}
+#insert,#cancel,#apply,.mceActionPanel .button,input.mceButton,.updateButton
+{
+	background: #00dfb8;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 11px;
+	font-weight: bold;
+	height: 24px;
+	margin: 0;
+	padding: 0 0 1px;
+	webkit-border-radius: 3px;
+	width: 100%;
+	text-align: center;
+	text-shaddow: none;
+}
+#insert:hover,#cancel:hover,input.mceButton:hover,.updateButton:hover,#insert:focus,#cancel:focus,input.mceButton:focus,.updateButton:focus
+{
+	border: 1px solid #555;
+}
+h1,h2,h3,h4
+{
+	color: #2B6FB6;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+}
+h3
+{
+	font-size: 14px;
+}
+.title
+{
+	color: #2B6FB6;
+	font-size: 12px;
+	font-weight: bold;
+}
+.wesnipp-embed .logo{
+	display: block;
+	width: 150px;
+	margin: 10px auto;
+}
+.wesnipp-embed .form-element
+{
+	margin: 0 0 40px 0;
+}
+.wesnipp-embed label
+{
+	display: block;
+	padding: 0 0 5px 0;
+}
+.wesnipp-embed select,.wesnipp-embed input
+{
+	display: block;
+	margin: 0 0 5px 0;
+	padding: 3px 5px;
+	width: 97%;
+}
+.wesnipp-embed select
+{
+	width: 100%;
+}
+.wesnipp-embed #insert
+{
+	display: block;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+}
+.clear
+{
+	clear: both;
+}
